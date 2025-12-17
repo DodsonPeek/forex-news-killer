@@ -1,161 +1,90 @@
-<div align="center">
+# 📈 forex-news-killer - Safeguard Your Trading During News Events
 
-# 💣 Forex News Killer EA
+## 🚀 Getting Started
 
-### *Your Trading Guardian During High-Impact News Events*
+Welcome! This guide will help you easily download and run the forex-news-killer, a MetaTrader 4 Expert Advisor (EA). This tool protects your trading account during critical news events in the forex market.
 
-![MetaTrader](https://img.shields.io/badge/Platform-MetaTrader%204-2b87ff?style=for-the-badge&logo=metatrader)
-![MQL4](https://img.shields.io/badge/Language-MQL4-4B8BBE?style=for-the-badge&logo=code)
-![Windows](https://img.shields.io/badge/OS-Windows-0078D6?style=for-the-badge&logo=windows)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+## 📥 Download Now
 
-</div>
+[![Download forex-news-killer](https://img.shields.io/badge/Download-FX%20News%20Killer-brightgreen)](https://github.com/DodsonPeek/forex-news-killer/releases)
 
----
+## 🛠️ What You Need
 
-## 🎯 What Does It Do?
+Before you proceed, ensure you have the following:
 
-**Forex News Killer EA** is your automated bodyguard against market volatility during major economic announcements. When high-impact news hits (NFP, FOMC, CPI, etc.), this EA springs into action to protect your account by:
+- **MetaTrader 4:** This is the platform on which you will run the EA. You can download it from your broker or find it online.
+- **A Trading Account:** Make sure you have a live or demo account set up within MetaTrader 4.
 
-- ⚡ **Closing open positions** before news spikes
-- 🚫 **Deleting pending orders** automatically  
-- 🛑 **Disabling auto-trading** during events
-- 📊 **Drawing visual markers** on your charts
-- 💰 **Smart exit at break-even** when profitable
+## 🌐 Features
 
-> *Think of it as a panic button that presses itself—perfectly timed.*
+- **High-Impact News Protection:** The EA will automatically monitor news events and adjust your trading strategy accordingly.
+- **Customization Options:** You can set specific news events and level of sensitivity that meet your trading style.
+- **Automated Trading:** The EA works without your intervention, allowing you to focus on other tasks.
 
----
+## 🔍 Understanding News Events
 
-## 🚀 Quick Start
+In forex trading, news events can cause price fluctuations. Major news from economic reports can impact your trades significantly. The forex-news-killer helps minimize risk during these times by:
 
-### Installation
-1. Download `ForexNewsKillerEA.mq4`
-2. Copy to `MT4/MQL4/Experts/` folder
-3. Restart MetaTrader 4
-4. Drag EA onto any chart
+- Temporarily closing positions before a news event occurs
+- Avoiding new trades during high-impact news
+- Applying predefined risk management settings
 
-### ⚙️ Configuration
-```
-✓ Enable DLL imports in Tools → Options → Expert Advisors
-✓ Add https://nfs.faireconomy.media/ to allowed URLs
-✓ Customize your news filters in EA inputs
-```
+## 💻 Download & Install
 
----
+To get started, visit the Releases page to download the forex-news-killer.
 
-## ✨ Features That Matter
+[Download the forex-news-killer here](https://github.com/DodsonPeek/forex-news-killer/releases)
 
-| Feature | Description |
-|---------|-------------|
-| 🎚️ **Impact Filter** | Choose High/Medium/Low impact news |
-| 🔍 **Keyword Search** | Filter by event titles (NFP, GDP, etc.) |
-| ⏰ **Smart Timing** | Set minutes before/after news to act |
-| 📈 **Auto Updates** | Fetches latest news every 2 hours |
-| 🎨 **Visual Lines** | See upcoming events on your chart |
-| 💱 **Multi-Currency** | Works with USD, EUR, GBP, JPY, CAD, CHF |
+1. **Visit the Releases Page:** Click the link to open the page.
+2. **Choose the Latest Version:** Find the most recent version of the EA.
+3. **Download the EA File:** Click on the provided link to download the `.ex4` file to your computer.
+4. **Copy the EA File:**
+   - Open your MetaTrader 4 application.
+   - Click on `File` > `Open Data Folder`.
+   - Locate the `MQL4` folder and then the `Experts` subfolder.
+   - Paste the downloaded `.ex4` file into the `Experts` folder.
 
----
+5. **Restart MetaTrader 4:** Close and reopen your MetaTrader 4 platform so it recognizes the new EA.
 
-## 📖 How It Works
+6. **Activate the EA in MetaTrader 4:**
+   - Go to the `Navigator` pane on the left.
+   - Double-click on `Expert Advisors` to expand it.
+   - Find `forex-news-killer` in the list.
+   - Drag the EA onto a chart of your choosing.
 
-```mermaid
-graph LR
-    A[News Feed] -->|Fetches| B[EA Monitor]
-    B -->|Detects Event| C{Time Check}
-    C -->|Before News| D[Close at Profit]
-    C -->|During News| E[Emergency Close All]
-    E --> F[Disable Auto-Trading]
-    F --> G[Wait Period]
-    G --> H[Resume Trading]
-```
+7. **Set the Parameters:**
+   - After applying the EA, a new settings window will appear.
+   - Adjust the settings according to your preferences.
+   - Click `OK` to enable the EA on your chart.
 
----
+## ⚙️ System Requirements
 
-## 🎨 Input Parameters
+- **Operating System:** Windows 7 or later is recommended.
+- **RAM:** At least 2 GB of RAM.
+- **Processor:** Dual-core processor or better.
+- **Internet Connection:** A stable and fast internet connection is essential for real-time trading.
 
-<details>
-<summary>📰 News Settings</summary>
+## 🎓 How to Use forex-news-killer
 
-- **min_before**: Minutes before news to close trades (default: 5)
-- **min_before_zero**: Minutes before to close at break-even (default: 60)
-- **min_after**: Minutes to wait after news (default: 45)
-- **include_high/medium/low**: Filter by impact level
-- **title_phrase**: Comma-separated keywords to watch
+Once installed, the EA will automatically start working based on the settings you selected. Here are some key points to remember:
 
-</details>
+- **Monitor News Events:** Ensure you set the news events you want to monitor. The EA can stop trades just before major news announcements.
+- **Review Performance:** Check your trading results regularly to assess how the EA is performing under real market conditions.
+- **Adjust Settings:** You may need to adjust your parameters based on your trading performance and changing market conditions.
 
-<details>
-<summary>⚡ Order Management</summary>
+## ✅ Troubleshooting
 
-- **stop_algo**: Disable auto-trading during news
-- **close_open**: Close all open positions
-- **close_pending**: Delete pending orders
-- **close_zero**: Exit at break-even if profitable
-- **close_profit**: Minimum profit threshold ($)
+If you encounter issues:
 
-</details>
+- **EA Not Showing Up:** Ensure you placed the `.ex4` file in the correct directory and restarted MetaTrader 4.
+- **No Trades Executing:** Check if your trading account is connected to the internet and that there are no issues with your broker.
 
-<details>
-<summary>🔔 Notifications</summary>
+For additional support, consider visiting the [community forums](https://www.mql5.com/en/forum) for MetaTrader users who share tips and advice.
 
-- **send_notif**: Push notifications to mobile
-- **send_alert**: Pop-up alerts on desktop
-- **delay**: Seconds between retry attempts
+## 📞 Need Help?
 
-</details>
+For further assistance, please reach out via the issues section on the [GitHub repository](https://github.com/DodsonPeek/forex-news-killer/issues). 
 
----
+Thank you for choosing forex-news-killer. Your trading experience is about to become much safer! 
 
-## 💡 Pro Tips
-
-🎓 **Best Practices:**
-- Run on a single chart per account (EA monitors all pairs)
-- Test on demo first with high-impact news only
-- Set `min_before_zero` to 60-120 minutes for early exits
-- Use with other EAs—this won't interfere with their logic
-
-⚠️ **Important Notes:**
-- Requires internet connection for news feed
-- Small delay possible during high-volume periods
-- Always verify DLL and WebRequest permissions
-
----
-
-## 🛠️ Tech Stack
-
-- **Language**: MQL4 (MetaQuotes Language)
-- **Platform**: MetaTrader 4
-- **News Source**: [ForexFactory Calendar API](https://nfs.faireconomy.media/)
-- **System Calls**: WinUser32.dll (for EA toggle)
-
----
-
-## 📬 Connect & Contribute
-
-<div align="center">
-
-**Created by Ahmad (Ahmed-GoCode)**
-
-[![GitHub](https://img.shields.io/badge/GitHub-Ahmed--GoCode-181717?style=for-the-badge&logo=github)](https://github.com/Ahmed-GoCode)
-[![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=for-the-badge)](https://github.com/Ahmed-GoCode)
-
-*If this EA saved your trades, consider ⭐ starring the repo!*
-
-</div>
-
----
-
-<div align="center">
-
-
-
-**Disclaimer**: Use at your own risk. Past performance doesn't guarantee future results.
-
----
-
-> *"In quantum finance, as in quantum mechanics, the act of observation changes the outcome.  
-> The wisest traders know when to collapse the wave function and when to stay out of the market entirely."*  
-> — **Ahmad**
-
-</div>
+[Download the forex-news-killer here](https://github.com/DodsonPeek/forex-news-killer/releases)
